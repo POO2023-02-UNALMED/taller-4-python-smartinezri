@@ -27,13 +27,13 @@ class Grupo:
             return "Grupo de estudiantes: " + self._grupo
 
     @classmethod
-    def asignarNombre(cls, nombre="Grado 10"):
+    def asignarNombre(cls, nombre="Grado 1"):
         cls.grado = nombre
 
     @classmethod
     def asignarNombre(cls, nombre="Grado 6"):
         cls.grado = nombre
 
-    @classmethod
-    def asignarNombre(cls, nombre="Grado 4"):
-        cls.grado = nombre
+    #@classmethod
+    #def asignarNombre(cls, nombre="Grado 4"):
+    #    cls.grado = nombre
